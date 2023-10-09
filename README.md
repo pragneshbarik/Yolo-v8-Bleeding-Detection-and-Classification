@@ -75,6 +75,6 @@
 # Instructions
 - Clone the repo
 - Install requirements.txt via `pip install -r requirements.txt`
-- Download and extract the model weights from [here]([url](https://drive.google.com/drive/folders/15JUQSBSc9LGDM7J7Hhs053oWCTjpFqJx?usp=sharing))
+- Download and extract the model weights from [here](https://drive.google.com/drive/folders/15JUQSBSc9LGDM7J7Hhs053oWCTjpFqJx?usp=sharing)
 - Do necessary changes in `test.py` file.
 - Running the `test.py` generates the `predictions.csv` file
