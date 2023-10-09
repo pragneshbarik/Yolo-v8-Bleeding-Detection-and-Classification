@@ -1,0 +1,9 @@
+
+
+train: /home/mlip/Desktop/bleedgen/detection/train_shuffled
+val: /home/mlip/Desktop/bleedgen/detection/val_shuffled
+test:  # test images (optional)
+
+# Classes
+names:
+  0: bleeding
