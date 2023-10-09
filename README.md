@@ -31,6 +31,15 @@
 |![F1_curve](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/ec099737-cbbb-4da3-9cfd-4a0bb5913a58)|![P_curve](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/a14ef28c-51e8-4c99-8ffd-58307e6c2280)|![PR_curve](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/e8073211-0c11-4e22-9559-7e50b6aa47da)|![R_curve](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/28c4cf9f-9e21-471a-92d8-de5b5ad80851)
 
 
+## Detection and Classification
+
+### Validation Dataset
+| **Imagename** | **img- (43).png** | **img- (44).png**|**img- (68).png**|**img- (164).png**|**img- (200).png**|
+|------ |---------------------|---------------------|---------------------|---------------------|---------------------|
+|**Images** |![img- (43)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/dd721c32-092d-4c25-8cfc-d3b3e94c33de)|![img- (44)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/1dec6675-b3bc-4217-9e57-d237294a9142)|![img- (68)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/a9708925-b2a0-4156-9efd-5cc35a7f5a44)|![img- (164)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/4da25df9-a9c1-4512-af41-853264f08460)|![img- (200)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/d6217716-352c-49e6-a7a7-ca35a373852f)
+| **Imagename** | **img- (448).png** | **img- (514).png**|**img- (628).png**|**img- (687).png**|**img- (677).png**|
+|**Images** |![img- (448)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/a88865f2-2680-4226-976c-fe3c31813f0e)|![img- (514)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/624112c2-0168-4eaa-8282-ed38982dc949)|![img- (628)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/c44170d6-e515-48df-b284-d0c76fc632b9)|![img- (687)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/ba02798a-aa2c-4690-83ce-abf4feb964f4)|![img- (677)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/c2974286-3a16-4b96-a895-c574ebd0b404)
+
 
 
 
@@ -47,15 +56,6 @@
 | **Imagename** | **A0164.png** | **A0256.png**|**A0300.png**|**A0384.png**|**A0473.png**|
 |------ |---------------------|---------------------|---------------------|---------------------|---------------------|
 |**CAM Images** | ![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/80a92f3f-d64a-41d0-b16b-22723c67c7e1)| ![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/37361d83-a8bd-4c8d-869e-a7cdbe11b89f)|![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/06f7f812-1a4d-4147-bd3a-274cb84b7851)|![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/c24f688e-c112-4249-8c2d-133a80c7a411)|![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/ce9addc6-25c2-4e1f-a5ce-52360d8b795b)
-
-## Detection and Classification
-
-### Validation Dataset
-| **Imagename** | **img- (43).png** | **img- (44).png**|**img- (68).png**|**img- (164).png**|**img- (200).png**|
-|------ |---------------------|---------------------|---------------------|---------------------|---------------------|
-|**Images** |![img- (43)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/dd721c32-092d-4c25-8cfc-d3b3e94c33de)|![img- (44)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/1dec6675-b3bc-4217-9e57-d237294a9142)|![img- (68)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/a9708925-b2a0-4156-9efd-5cc35a7f5a44)|![img- (164)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/4da25df9-a9c1-4512-af41-853264f08460)|![img- (200)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/d6217716-352c-49e6-a7a7-ca35a373852f)
-| **Imagename** | **img- (448).png** | **img- (514).png**|**img- (628).png**|**img- (687).png**|**img- (677).png**|
-|**Images** |![img- (448)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/a88865f2-2680-4226-976c-fe3c31813f0e)|![img- (514)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/624112c2-0168-4eaa-8282-ed38982dc949)|![img- (628)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/c44170d6-e515-48df-b284-d0c76fc632b9)|![img- (687)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/ba02798a-aa2c-4690-83ce-abf4feb964f4)|![img- (677)](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/c2974286-3a16-4b96-a895-c574ebd0b404)
 
 
 
