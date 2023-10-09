@@ -7,19 +7,32 @@
  ### Classification Metrics
 | Metric (in probability)| Value    |
 |------------------------|----------|
-| Accuracy               |   0.7864782276546982 |
-| Recall (Bleeding)                 |   0.9602750190985485 |
-| Recall (Non Bleeding)                 |   0.612681436210848|
-| F1-Score (Bleeding)               |  0.8180930686625448  |
-| F1-Score (Non Bleeding)               |  0.741562644475266  |
-| F1-Score (Weighted)               |  0.7798278565689054  |
-### Training Metrics
+| Accuracy               |   0.7864 |
+| Recall (Bleeding)                 |   0.9602 |
+| Recall (Non Bleeding)                 |   0.6126|
+| F1-Score (Bleeding)               |  0.8180  |
+| F1-Score (Non Bleeding)               |  0.7415  |
+| F1-Score (Weighted)               |  0.7798  |
 
 ### Detection Metrics
 | Metric (in probability)| Value          |
 |------------------------|----------------|
 |  mAP50 |     0.652      |
 | mAP50-95|     0.336     |
+
+
+### Training Metrics
+
+| **Confusion Metrics** | **Confusion Metrics Normalized**|
+|------ |---------------------|
+|![confusion_matrix](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/31ef191b-b8f4-4dc8-a336-6a2a340db6d3)|![confusion_matrix_normalized](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/7a7d65d3-aa1c-43c1-bf19-7c40d390da9f)|
+
+
+| **F1 Curve** | **P Curve**|**PR Curve** |**R Curve**|
+|------ |---------------------|------ |---------------------|
+|![F1_curve](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/ec099737-cbbb-4da3-9cfd-4a0bb5913a58)|![P_curve](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/a14ef28c-51e8-4c99-8ffd-58307e6c2280)|![PR_curve](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/e8073211-0c11-4e22-9559-7e50b6aa47da)|![R_curve](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/28c4cf9f-9e21-471a-92d8-de5b5ad80851)
+
+
 
 # Validation Dataset
 ## Detection and Classification
@@ -53,10 +66,11 @@
 # Testing Dataset 1
 ## Detection and Classification
 
-| **Imagename** | **A0001.png** | **A0033.png**|**A0035.png**|**A0040.png**|**A0041.png**|
+| **Imagename** | **A0047.png** | **A0043.png**|**A0048.png**|**A0040.png**|**A0035.png**|
 |------ |---------------------|---------------------|---------------------|---------------------|---------------------|
-|**Images** | <img src="Images_README\testing_dataset_1\Classification_and_detection\A0001.png" alt="Image 1">| <img src="Images_README\testing_dataset_1\Classification_and_detection\A0033.png" alt="Image 1">|<img src="Images_README\testing_dataset_1\Classification_and_detection\A0035.png" alt="Image 1">| <img src="Images_README\testing_dataset_1\Classification_and_detection\A0040.png" alt="Image 1">|<img src="Images_README\testing_dataset_1\Classification_and_detection\A0041.png" alt="Image 1">|
-|**Confidance**| 0.29 | 0.75 |0.44 | 0.37 | 0.27 |
+|**Images** | ![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/b81cf6fd-58eb-4812-a174-46d1af28ae72)|![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/4e51a286-98e9-44af-85b3-cc0cc79dfbef)|![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/fb8d5cc0-9d46-46b1-b9a7-6d46215ceb57)| ![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/bd986059-75c4-40ef-be4f-1c334fb14766)|![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/b1a4b811-3341-41fc-bdda-c82a55c6641e)
+|
+
 
 ## Interpretability Plots (Cam Plots of 2nd last layer)                                                                                                         
 | **Imagename** | **A0001_cam.png** | **A0033_cam.png**|**A0035_cam.png**|**A0040_cam.png**|**A0041_cam.png**|
@@ -66,12 +80,17 @@
 # Testing Dataset 2
 ## Detection and Classification
 
-| **Imagename** | **A0211.png** | **A0498.png**|**A0500.png**|**A0532.png**|**A0551.png**|
+| **Imagename** | **A0258.png** | **A0260.png**|**A0500.png**|**A0261.png**|**A0498.png**|
 |------ |---------------------|---------------------|---------------------|---------------------|---------------------|
-|**Images** | <img src="Images_README\testing_dataset_2\classification_and_detection\A0211.png" alt="Image 1">| <img src="Images_README\testing_dataset_2\classification_and_detection\A0498.png" alt="Image 1">|<img src="Images_README\testing_dataset_2\classification_and_detection\A0500.png" alt="Image 1">| <img src="Images_README\testing_dataset_2\classification_and_detection\A0532.png" alt="Image 1">|<img src="Images_README\testing_dataset_2\classification_and_detection\A0551.png" alt="Image 1">|
-|**Confidance**| 0.27 | 0.28 |0.62 | 0.27 |0.32 |
+|**Images** | ![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/b3024ef7-79cf-46ed-b2c0-24962f9f0fdc)
+| ![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/43632a5e-2389-4648-9839-ead3c0abe104)
+|![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/e6d69155-ff8c-4064-8b03-ed3462270385)
+| ![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/5ed99275-804b-41ac-8697-d53105f52676)
+|![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/f38d6335-3211-427e-8cb3-83c146813db3)
+|
 
-## Interpretability Plots (Cam Plots of 2nd last layer)                                                                                                         
+## Interpretability Plots (Cam Plots of 2nd last layer)                                                                                                        ![image](https://github.com/pragneshbarik/misahub-challenge/assets/65221256/d39be5d0-25e2-4276-a209-c0aca05d85dd)
+ 
 | **Imagename** | **A0211_cam.png** | **A0498_cam.png**|**A0500_cam.png**|**A0532_cam.png**|**A0551_cam.png**|
 |------ |---------------------|---------------------|---------------------|---------------------|---------------------|
 |**Images** | <img src="Images_README\testing_dataset_2\Interpretability_plots\A0211_cam.png" alt="Image 1">| <img src="Images_README\testing_dataset_2\Interpretability_plots\A0498_cam.png" alt="Image 1">|<img src="Images_README\testing_dataset_2\Interpretability_plots\A0500_cam.png" alt="Image 1">| <img src="Images_README\testing_dataset_2\Interpretability_plots\A0532_cam.png" alt="Image 1">|<img src="Images_README\testing_dataset_2\Interpretability_plots\A0551_cam.png" alt="Image 1">|
