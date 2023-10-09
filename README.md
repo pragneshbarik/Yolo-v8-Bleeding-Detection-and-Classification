@@ -73,6 +73,6 @@
 
 # Instructions
 
-- Download and extract the model weights from [here](url)
+- Download and extract the model weights from [here]([url](https://drive.google.com/drive/folders/15JUQSBSc9LGDM7J7Hhs053oWCTjpFqJx?usp=sharing))
 - Do necessary changes in `test.py` file.
 - Running the `test.py` generates the `predictions.csv` file
